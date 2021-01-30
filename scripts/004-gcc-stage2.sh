@@ -47,6 +47,7 @@ rm -rf build-$TARGET-stage2 && mkdir build-$TARGET-stage2 && cd build-$TARGET-st
   --disable-libmudflap \
   --disable-libquadmath \
   --disable-libssp \
+  --disable-libstdcxx-pch \
   --disable-multilib \
   --disable-nls \
   --disable-shared \
