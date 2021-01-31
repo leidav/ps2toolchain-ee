@@ -27,7 +27,7 @@ rm -rf build-$TARGET && mkdir build-$TARGET && cd build-$TARGET || { exit 1; }
   --quiet \
   --prefix="$PS2DEV/$TARGET_ALIAS" \
   --target="$TARGET" \
-  --disable-lto \
+  --enable-lto \
   --disable-nls \
   --disable-separate-code \
   --disable-sim \
